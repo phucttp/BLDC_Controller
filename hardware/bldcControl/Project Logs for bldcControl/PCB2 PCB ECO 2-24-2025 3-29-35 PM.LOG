@@ -1,0 +1,93 @@
+Added Component: Designator=C?(CN4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.47uF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CN4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.47uF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C10mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "POLAR0.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CN4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.47uF"; VariantName = "[No Variations]"
+Added Component: Designator=D?(D1A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1N4007"; VariantName = "[No Variations]"
+Added Component: Designator=D?(D1A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1N4007"; VariantName = "[No Variations]"
+Added Component: Designator=D?(D1A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1N4007"; VariantName = "[No Variations]"
+Added Component: Designator=Q?(QTO-220H3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q?(QTO-220H3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R?(R2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R2W - 47"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R1/4W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R1/4W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=U?(DIP1524W45P254L3740H635Q28)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/IR2136/Infineon+Technologies/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "IR2136"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DIP-28 International Rectifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/IR2136/Infineon+Technologies/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=COM Pin=C?-2
+Added Pin To Net: NetName=COM Pin=Q?-3
+Added Pin To Net: NetName=COM Pin=U?-13
+Added Net: Name=COM
+Added Pin To Net: NetName=HO1 Pin=R?-1
+Added Pin To Net: NetName=HO1 Pin=U?-27
+Added Net: Name=HO1
+Added Pin To Net: NetName=HO2 Pin=U?-23
+Added Net: Name=HO2
+Added Pin To Net: NetName=HO3 Pin=U?-19
+Added Net: Name=HO3
+Added Pin To Net: NetName=LO1 Pin=R?-1
+Added Pin To Net: NetName=LO1 Pin=U?-16
+Added Net: Name=LO1
+Added Pin To Net: NetName=LO2 Pin=U?-15
+Added Net: Name=LO2
+Added Pin To Net: NetName=LO3 Pin=U?-14
+Added Net: Name=LO3
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=D?-2
+Added Pin To Net: NetName=NetC?_2 Pin=U?-20
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetQ?_1 Pin=Q?-1
+Added Pin To Net: NetName=NetQ?_1 Pin=R?-2
+Added Net: Name=NetQ?_1
+Added Pin To Net: NetName=VCC Pin=C?-1
+Added Pin To Net: NetName=VCC Pin=D?-1
+Added Pin To Net: NetName=VCC Pin=D?-1
+Added Pin To Net: NetName=VCC Pin=D?-1
+Added Pin To Net: NetName=VCC Pin=U?-1
+Added Net: Name=VCC
+Added Pin To Net: NetName=VS1 Pin=C?-1
+Added Pin To Net: NetName=VS1 Pin=Q?-2
+Added Pin To Net: NetName=VS1 Pin=Q?-2
+Added Pin To Net: NetName=VS1 Pin=Q?-3
+Added Pin To Net: NetName=VS1 Pin=U?-26
+Added Net: Name=VS1
+Added Pin To Net: NetName=VS2 Pin=C?-1
+Added Pin To Net: NetName=VS2 Pin=U?-22
+Added Net: Name=VS2
+Added Pin To Net: NetName=VS3 Pin=C?-1
+Added Pin To Net: NetName=VS3 Pin=U?-18
+Added Net: Name=VS3
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1

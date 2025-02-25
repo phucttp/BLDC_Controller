@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=C5 Old Footprint=Cap Pol 5mm New Footprint=CAP_POL_5MM
+Added Member To Class: ClassName=Sheet1 Member=Component C5 4.7uF
+Added Room: Name=Sheet1

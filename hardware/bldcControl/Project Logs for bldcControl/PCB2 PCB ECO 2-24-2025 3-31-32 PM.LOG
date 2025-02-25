@@ -1,0 +1,105 @@
+Added Component: Designator=C1(CN4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.47uF"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CN4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.47uF"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CN4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "0.47uF"; VariantName = "[No Variations]"
+Added Component: Designator=C4(C10mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "POLAR0.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=D1(D1A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1N4007"; VariantName = "[No Variations]"
+Added Component: Designator=D2(D1A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1N4007"; VariantName = "[No Variations]"
+Added Component: Designator=D3(D1A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1N4007"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(QTO-220H3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q2(QTO-220H3)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(R1/4W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R2(R1/4W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R3(R5W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R5W - 0,47R"; VariantName = "[No Variations]"
+Added Component: Designator=U1(DIP1524W45P254L3740H635Q28)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/IR2136/Infineon+Technologies/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "IR2136"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DIP-28 International Rectifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/IR2136/Infineon+Technologies/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VS1 Pin=C1-1
+Added Pin To Net: NetName=VS2 Pin=C2-1
+Added Pin To Net: NetName=VS3 Pin=C3-1
+Added Pin To Net: NetName=VCC Pin=C4-1
+Added Pin To Net: NetName=COM Pin=C4-2
+Added Pin To Net: NetName=VCC Pin=D1-1
+Added Pin To Net: NetName=VCC Pin=D2-1
+Added Pin To Net: NetName=VCC Pin=D3-1
+Added Pin To Net: NetName=VS1 Pin=Q1-3
+Added Pin To Net: NetName=VS1 Pin=Q2-2
+Added Pin To Net: NetName=VS1 Pin=Q2-2
+Added Pin To Net: NetName=COM Pin=Q2-3
+Added Pin To Net: NetName=HO1 Pin=R1-1
+Added Pin To Net: NetName=LO1 Pin=R2-1
+Added Pin To Net: NetName=VCC Pin=U1-1
+Added Pin To Net: NetName=COM Pin=U1-13
+Added Pin To Net: NetName=LO3 Pin=U1-14
+Added Pin To Net: NetName=LO2 Pin=U1-15
+Added Pin To Net: NetName=LO1 Pin=U1-16
+Added Pin To Net: NetName=VS3 Pin=U1-18
+Added Pin To Net: NetName=HO3 Pin=U1-19
+Added Pin To Net: NetName=VS2 Pin=U1-22
+Added Pin To Net: NetName=HO2 Pin=U1-23
+Added Pin To Net: NetName=VS1 Pin=U1-26
+Added Pin To Net: NetName=HO1 Pin=U1-27
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=D1-2
+Added Pin To Net: NetName=NetC1_2 Pin=U1-28
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=D2-2
+Added Pin To Net: NetName=NetC2_2 Pin=U1-24
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=D3-2
+Added Pin To Net: NetName=NetC3_2 Pin=U1-20
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R1-2
+Added Net: Name=NetQ1_1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R2-2
+Added Net: Name=NetQ2_1
+Added Member To Class: ClassName=Sheet1 Member=Component C1 474
+Added Member To Class: ClassName=Sheet1 Member=Component C2 474
+Added Member To Class: ClassName=Sheet1 Member=Component C3 474
+Added Member To Class: ClassName=Sheet1 Member=Component C4 4.7uF
+Added Member To Class: ClassName=Sheet1 Member=Component D1 1N4118
+Added Member To Class: ClassName=Sheet1 Member=Component D2 1N4118
+Added Member To Class: ClassName=Sheet1 Member=Component D3 1N4118
+Added Member To Class: ClassName=Sheet1 Member=Component Q1 IRFZ44
+Added Member To Class: ClassName=Sheet1 Member=Component Q2 IRFZ44
+Added Member To Class: ClassName=Sheet1 Member=Component R1 1k
+Added Member To Class: ClassName=Sheet1 Member=Component R2 1k
+Added Member To Class: ClassName=Sheet1 Member=Component R3 R5W - 0,47
+Added Member To Class: ClassName=Sheet1 Member=Component U1 IR2136
+Added Room: Name=Sheet1
