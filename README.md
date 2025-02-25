@@ -1,43 +1,59 @@
-Mạch Điều Khiển Động Cơ Công Suất Cao sử dụng IR2136 và IRFZ44
-Giới Thiệu
-Repository này chứa sơ đồ nguyên lý và thiết kế PCB cho mạch điều khiển động cơ công suất cao, sử dụng IC driver IR2136 và MOSFET IRFZ44. Mạch được thiết kế để điều khiển động cơ ba pha, có tích hợp chức năng bảo vệ lỗi, điều khiển bật/tắt, và cảm biến dòng điện.
+# 📌 Mạch Điều Khiển Động Cơ Công Suất Cao sử dụng IR2136 & IRFZ44  
 
-Đặc Điểm Chính
-Điều khiển động cơ ba pha sử dụng IR2136.
-Sáu MOSFET IRFZ44 để chuyển mạch công suất cao.
-Bảo vệ quá dòng bằng điện trở cảm biến 0.05 Ohm.
-Phát hiện lỗi (FAULT) và ngõ vào điều khiển (EN) đảm bảo an toàn.
-Tụ bootstrap hỗ trợ điều khiển MOSFET phía cao áp.
-Header giao tiếp với vi điều khiển hoặc mạch logic bên ngoài.
-Tổng Quan Sơ Đồ Nguyên Lý
-Mạch bao gồm các thành phần chính sau:
+## 📖 Giới Thiệu  
+Repository này chứa sơ đồ nguyên lý và thiết kế PCB cho mạch điều khiển động cơ ba pha, sử dụng **IC driver IR2136** và **MOSFET IRFZ44**. Mạch hỗ trợ bảo vệ lỗi, điều khiển bật/tắt và cảm biến dòng điện.  
 
-IC IR2136 (U1): Điều khiển sáu MOSFET (Q1 - Q6).
-MOSFET IRFZ44: Đóng cắt dòng điện cho động cơ ba pha.
-Diode 1N4118: Bảo vệ chống xung điện áp.
-Điện trở & tụ điện: Lọc nhiễu và ổn định mạch.
-Ngõ vào điều khiển (HIN, LIN, FAULT, EN): Kết nối với vi điều khiển.
-Nguồn cấp (VCC, VM, GND): Cấp nguồn cho mạch.
-Kết Nối
-Chân	Mô tả
-HIN1, HIN2, HIN3	Ngõ vào điều khiển MOSFET phía cao áp
-LIN1, LIN2, LIN3	Ngõ vào điều khiển MOSFET phía thấp áp
-FAULT	Cảnh báo lỗi
-EN	Ngõ vào bật/tắt mạch
-VCC	Nguồn logic
-VM	Nguồn động cơ
-VS1, VS2, VS3	Cảm biến điện áp pha
-HO1, HO2, HO3	Điều khiển MOSFET phía cao áp
-LO1, LO2, LO3	Điều khiển MOSFET phía thấp áp
-Thiết Kế Mạch In (PCB)
-PCB được tối ưu để đảm bảo dòng điện cao và tản nhiệt tốt:
+## 🚀 Đặc Điểm Chính  
+✔️ **Điều khiển động cơ ba pha** với IR2136  
+✔️ **Sáu MOSFET IRFZ44** đảm bảo công suất cao  
+✔️ **Bảo vệ quá dòng** bằng điện trở cảm biến **0.05 Ohm**  
+✔️ **Ngõ ra FAULT & EN** giúp bảo vệ hệ thống  
+✔️ **Bootstrap capacitor** hỗ trợ điều khiển MOSFET cao áp  
+✔️ **Header giao tiếp** với vi điều khiển hoặc mạch ngoài  
 
-Dây đồng dày cho đường dòng lớn.
-Khoảng cách hợp lý để tránh đoản mạch.
-Bố trí linh kiện tối ưu giúp tản nhiệt hiệu quả.
-Hướng Dẫn Sử Dụng
-Kết nối nguồn VCC (nguồn logic) và VM (nguồn động cơ).
-Giao tiếp HIN, LIN, EN, FAULT với vi điều khiển.
-Kết nối ba pha động cơ vào VS1, VS2, VS3.
-Kiểm tra MOSFET có cần gắn tản nhiệt hay không.
-Lập trình vi điều khiển để gửi tín hiệu PWM điều khiển tốc độ và hướng quay của động cơ.
+## 🛠 Tổng Quan Sơ Đồ Nguyên Lý  
+Mạch gồm các phần chính:  
+- **IR2136 (U1)** – Điều khiển sáu MOSFET (Q1 - Q6)  
+- **MOSFET IRFZ44** – Công suất cao, hoạt động ổn định  
+- **Diode 1N4118** – Chống xung điện áp  
+- **Điện trở & tụ điện** – Lọc nhiễu, ổn định mạch  
+- **Ngõ vào điều khiển (HIN, LIN, FAULT, EN)** – Tương thích MCU  
+- **Nguồn cấp (VCC, VM, GND)** – Cấp nguồn cho hệ thống  
+
+## 🔌 Kết Nối  
+| Chân | Chức năng |  
+|------|----------|  
+| **HIN1, HIN2, HIN3** | Điều khiển MOSFET cao áp |  
+| **LIN1, LIN2, LIN3** | Điều khiển MOSFET thấp áp |  
+| **FAULT** | Ngõ cảnh báo lỗi |  
+| **EN** | Bật/tắt hệ thống |  
+| **VCC** | Nguồn cấp logic |  
+| **VM** | Nguồn động cơ |  
+| **VS1, VS2, VS3** | Điện áp pha động cơ |  
+| **HO1, HO2, HO3** | Ngõ điều khiển MOSFET cao áp |  
+| **LO1, LO2, LO3** | Ngõ điều khiển MOSFET thấp áp |  
+
+## 🖥 Thiết Kế PCB  
+📌 **Bố trí tối ưu** để đảm bảo hiệu suất:  
+✅ **Dây đồng dày** đảm bảo dòng điện cao  
+✅ **Khoảng cách hợp lý** tránh chạm mạch  
+✅ **Bố trí linh kiện tối ưu** giúp tản nhiệt tốt  
+
+## 🎯 Hướng Dẫn Sử Dụng  
+1️⃣ Cấp nguồn **VCC (logic)** & **VM (động cơ)**  
+2️⃣ Kết nối **HIN, LIN, EN, FAULT** với vi điều khiển  
+3️⃣ Nối động cơ vào **VS1, VS2, VS3**  
+4️⃣ Kiểm tra nhiệt độ MOSFET, có thể cần **tản nhiệt**  
+5️⃣ Lập trình MCU gửi **tín hiệu PWM** điều khiển tốc độ động cơ  
+
+## 🔄 Cải Tiến Trong Tương Lai  
+⚡ **Tích hợp cảm biến dòng điện** → Điều khiển vòng kín  
+⚡ **Bảo vệ ngược cực nguồn** → Tránh hư hỏng linh kiện  
+⚡ **Tối ưu PCB** → Giảm nhiễu và tăng độ bền  
+
+## 📜 Giấy Phép  
+🚀 **Dự án mã nguồn mở** – Sử dụng tự do cho học tập & thương mại (ghi rõ nguồn)  
+
+---
+
+🔥 Nếu bạn thấy hữu ích, đừng quên **⭐ Star** repo nhé!  
