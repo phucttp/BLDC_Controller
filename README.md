@@ -60,7 +60,7 @@ Mạch gồm các phần chính:
 ⚡ **Tối ưu PCB** → Giảm nhiễu và tăng độ bền  
 
 ## 📜 Giấy Phép  
-🚀 **Dự án mã nguồn mở** – Sử dụng tự do cho học tập & thương mại (ghi rõ nguồn)  
+🚀 **Dự án mã nguồn mở** – Sử dụng tự do cho học tập & thương mại 
 
 ---
 
