@@ -40,6 +40,13 @@ Mạch gồm các phần chính:
 ✅ **Khoảng cách hợp lý** tránh chạm mạch  
 ✅ **Bố trí linh kiện tối ưu** giúp tản nhiệt tốt  
 
+## 🖼️ Hình Ảnh Thiết Kế
+### 🔹 Ảnh 3D Mạch  
+![3D PCB](3D.JPG)
+
+### 🔹 Ảnh PCB  
+![PCB Layout](bottom.JPG)
+
 ## 🎯 Hướng Dẫn Sử Dụng  
 1️⃣ Cấp nguồn **VCC (logic)** & **VM (động cơ)**  
 2️⃣ Kết nối **HIN, LIN, EN, FAULT** với vi điều khiển  
