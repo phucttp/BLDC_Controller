@@ -14,24 +14,25 @@ Repository này chứa sơ đồ nguyên lý và thiết kế PCB cho mạch đi
 ## 🛠 Tổng Quan Sơ Đồ Nguyên Lý  
 Mạch gồm các phần chính:  
 - **IR2136 (U1)** – Điều khiển sáu MOSFET (Q1 - Q6)  
-- **MOSFET IRFZ44** – Công suất cao, hoạt động ổn định  
-- **Diode 1N4118** – Chống xung điện áp  
+- **MOSFET IRFZ44** – Công suất cao, dòng tối đa **49A**, áp cấp tối đa **55V**  
+- **Mạch bootstrap** – Tụ điện (`C1, C3, C4`) & diode (`D1, D2, D3`), hỗ trợ MOSFET cao áp  
+- **Diode 1N4118** – Chống xung điện áp, bảo vệ linh kiện  
 - **Điện trở & tụ điện** – Lọc nhiễu, ổn định mạch  
-- **Ngõ vào điều khiển (HIN, LIN, FAULT, EN)** – Tương thích MCU  
-- **Nguồn cấp (VCC, VM, GND)** – Cấp nguồn cho hệ thống  
-
+- **Ngõ vào điều khiển (HIN, LIN, FAULT, EN)** – Tương thích MCU, giao tiếp dễ dàng  
+- **Nguồn cấp (VCC, VM, GND)** – Cấp nguồn cho hệ thống, đảm bảo hiệu suất
+- 
 ## 🔌 Kết Nối  
 | Chân | Chức năng |  
 |------|----------|  
-| **HIN1, HIN2, HIN3** | Điều khiển MOSFET cao áp |  
-| **LIN1, LIN2, LIN3** | Điều khiển MOSFET thấp áp |  
+| **HIN1, HIN2, HIN3** | Điều khiển MOSFET high-side |  
+| **LIN1, LIN2, LIN3** | Điều khiển MOSFET low-side |  
 | **FAULT** | Ngõ cảnh báo lỗi |  
 | **EN** | Bật/tắt hệ thống |  
 | **VCC** | Nguồn cấp logic |  
 | **VM** | Nguồn động cơ |  
 | **VS1, VS2, VS3** | Điện áp pha động cơ |  
-| **HO1, HO2, HO3** | Ngõ điều khiển MOSFET cao áp |  
-| **LO1, LO2, LO3** | Ngõ điều khiển MOSFET thấp áp |  
+| **HO1, HO2, HO3** | Ngõ điều khiển MOSFET nhánh trên |  
+| **LO1, LO2, LO3** | Ngõ điều khiển MOSFET nhánh dưới |  
 
 ## 🖥 Thiết Kế PCB  
 📌 **Bố trí tối ưu** để đảm bảo hiệu suất:  
