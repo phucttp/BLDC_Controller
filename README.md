@@ -20,6 +20,8 @@ The circuit consists of the following main components:
 - **Resistors & Capacitors** – Noise filtering and circuit stabilization  
 - **Control inputs (HIN, LIN, FAULT, EN)** – MCU-compatible interface  
 - **Power supply (VCC, VM, GND)** – Provides power for the system  
+- Schematic: ![schematic](hardware/Board_Files/Schematic.pdf)
+
 
 ## 🔌 Pinout & Connections  
 | Pin | Function |  
