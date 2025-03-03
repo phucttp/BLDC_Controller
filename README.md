@@ -41,9 +41,10 @@ The circuit consists of the following main components:
 ✅ **Optimized component placement** for heat dissipation  
 
 ## 🖼️ PCB Design Images  
-### 🔹 3D PCB View  
+### 🔹 PCB View  
 ![3D PCB](3D.JPG)  
-
+![The Upper](IMG_20250228_135550.jpg)
+![The Lower](IMG_20250228_135609.jpg)
 ### 🔹 PCB Layout  
 ![PCB Layout](bottom.JPG)  
 
