@@ -55,6 +55,9 @@ The circuit consists of the following main components:
 4️⃣ Monitor MOSFET temperature, add a **heatsink if necessary**  
 5️⃣ Program the MCU to send **PWM signals** to control motor speed  
 
+## 🎯 Video Demo
+![Demo](demo.gif)
+
 ## 🔄 Future Improvements  
 ⚡ **Integrate current sensing** → Enable closed-loop control  
 ⚡ **Reverse polarity protection** → Prevent component damage  
