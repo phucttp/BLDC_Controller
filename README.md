@@ -65,8 +65,13 @@ The circuit consists of the following main components:
 ⚡ **Reverse polarity protection** → Prevent component damage  
 ⚡ **Optimize PCB layout** → Reduce noise and enhance durability  
 
-## 📜 License  
-🚀 **Open-source project** – Free to use for educational & commercial purposes  
+---
+
+📜 License
+🚀 Open-source project – Free to use for educational & commercial purposes
+
+Created by Trần Trọng Phúc
+📧 Contact: trantrongphucttp27@gmail.com
 
 ---
 
